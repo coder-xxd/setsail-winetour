@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="grid ">
+            <header>
+                <!-- Top Bar -->
+                <section class="top-bar hide-on-mobile-tablet">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col l-9">
+                                <ul class="top-bar__list">
+                                    <li>
+                                        <a href="">
+                                            <i class="top-bar__list-icon far fa-envelope"></i>
+                                            setsail@qode.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="top-bar__list-icon fas fa-phone-alt"></i>
+                                            1 562 867 5309
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="top-bar__list-icon fas fa-map-marker-alt"></i>
+                                            Broadway & Morris St, New York
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col l-3">
+                                <div class="top-bar__info-wrap">
+                                    <ul class="top-bar__social-list">
+                                        <li><a href="" class="top-bar__social-link" >
+                                            <i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="" class="top-bar__social-link" >
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a></li>
+                                        <li><a href="" class="top-bar__social-link" >
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a></li>
+                                        <li><a href="" class="top-bar__social-link" >
+                                            <i class="fab fa-instagram"></i>
+                                        </a></li>
+                                    </ul>
+                                    <div class="top-bar__languages-wrap">
+                                        <div class="top-bar__languages">
+                                            <span>English</span>
+                                            <i class="fas fa-angle-down"></i>
+                                            <ul class="top-bar__languages-list">
+                                                <li><a href="" class="top-bar__languages-link">French</a></li>
+                                                <li><a href="" class="top-bar__languages-link">German</a></li>
+                                                <li><a href="" class="top-bar__languages-link">Italian</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="top-bar__user js-login-btn">
+                                        <i class="far fa-user-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Nav Bar -->
+                <nav class="navbar">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-12">
+                                <div class="mobile-header">
+                                    <div class="mobile-header__overlay js-mobile-overlay"></div>
+                                    <div class="mobile-menu hide-on-pc js-menu-btn">
+                                        <i class="mobile-menu-icon fas fa-bars"></i>
+                                    </div>
+                                    <div class="navbar__logo l-12 l-o-4">
+                                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo.png" alt="" class="navbar__logo-img hide-on-mobile-tablet">
+                                        <img src="./assets/img/wine-tours/logo-mobile-img.png" alt="" class="mobile-logo-img hide-on-pc">
+                                    </div>
+                                    <ul class="navbar__list l-8 l-o-2 m-12 m-o-1 c-12 c-o-1 js-mobile-nav">
+                                        <!-- Home -->
+                                        <li class="navbar__item">
+                                            <a href="#" class="navbar__item-link">
+                                                <span class="navbar__item-title active">Home</span>
+                                                <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                            </a>
+                                            <ul class="subnav">
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Travel Agency</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Winter Holidays</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Exotic Destinations</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Summer Holidays</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">City Tours</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">New Year Trips</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Destinations Carousel</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link active">Wine Tours</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Vacation Showcase</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Landing</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- Pages -->
+                                        <li class="navbar__item">
+                                            <a href="#" class="navbar__item-link">
+                                                <span class="navbar__item-title">Pages</span>
+                                                <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                            </a>
+                                            <ul class="subnav">
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">About Us</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">What We Offer</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Our Team</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Get In Touch</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Contact Us</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">FAQ Page</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Comming Soon</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Error Page</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- Destination -->
+                                        <li class="navbar__item">
+                                            <a href="#" class="navbar__item-link">
+                                                <span class="navbar__item-title">Destinations</span>
+                                                <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                            </a>
+                                            <ul class="subnav">
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Destinations List</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Destinations Slider</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Destinations Item</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- Tours -->
+                                        <li class="navbar__item">
+                                            <a href="#" class="navbar__item-link">
+                                                <span class="navbar__item-title">Tours</span>
+                                                <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                            </a>
+                                            <ul class="subnav">
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Standard List</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Gallery List</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Split List</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Tour Item</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- Blog -->
+                                        <li class="navbar__item">
+                                            <a href="#" class="navbar__item-link">
+                                                <span class="navbar__item-title">Blog</span>
+                                                <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                            </a>
+                                            <ul class="subnav">
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Blog Masonry</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">
+                                                        Blog Standard
+                                                        <i class="fas fa-angle-right float-right"></i>
+                                                    </a>
+                                                    <ul class="subnav__menu">
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link"> Sidebar</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Left Sidebar</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Without Sidebar</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">
+                                                        Post Types
+                                                        <i class="fas fa-angle-right float-right"></i>
+                                                    </a>
+                                                    <ul class="subnav__menu">
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Standard</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Gallery</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Link</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Quote</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Video</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Audio</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">No Sidebar</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- Shop -->
+                                        <li class="navbar__item">
+                                            <a href="#" class="navbar__item-link">
+                                                <span class="navbar__item-title">Shop</span>
+                                                <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                            </a>
+                                            <ul class="subnav">
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Product List</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Product Single</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">
+                                                        Shop Layouts
+                                                        <i class="fas fa-angle-left  hide-on-mobile-tablet float-left"></i>
+                                                        <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                                    </a>
+                                                    <ul class="subnav__menu">
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Three Columns</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Four Columns</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Full Width</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">
+                                                        Shop Pages
+                                                        <i class="fas fa-angle-left float-left hide-on-mobile-tablet"></i>
+                                                        <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                                    </a>
+                                                    <ul class="subnav__menu">
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">My Account</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Cart</a>
+                                                        </li>
+                                                        <li class="subnav__menu-item">
+                                                            <a href="" class="subnav__menu-link">Checkout</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- Elements -->
+                                        <li class="navbar__item">
+                                            <a href="#" class="navbar__item-link">
+                                                <span class="navbar__item-title">Elements</span>
+                                                <i class="fas fa-angle-right float-right hide-on-pc"></i>
+                                            </a>
+                                            <ul class="subnav">
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Travel Agency</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Winter Holidays</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Exotic Destinations</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">Summer Holidays</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">City Tours</a>
+                                                </li>
+                                                <li class="subnav__item">
+                                                    <a href="" class="subnav__link">New Year Trips</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="mobile-user hide-on-pc js-login-btn">
+                                        <i class="mobile-user-icon far fa-user-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col c-11 c-o-1">
+                                <!-- Section: Slide -->
+                                <section class="slide">
+                                    <div class="row">
+                                        <div class="slide__wrap">
+                                            <div class="row no-gutters">
+                                                <div class="col l-8 m-8 ">
+                                                    <div class="slide__col">
+                                                        <img src="./assets/img/wine-tours/travel-slide-1.jpg" alt="Travel Slide 1" class="slide__img">
+                                                        
+                                                            <div class="slide__texbox-wrap">
+                                                                <div class="row">
+                                                                    <div class="col l-12 m-8 m-o-2 c-6 c-o-3">
+                                                                        <img src="./assets/img/wine-tours/travel-slide-img-1.png" alt="Text Box 1" class="slide__text-box">
+        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4 m-4">
+                                                    <div class="slide__col">
+                                                        <img src="./assets/img/wine-tours/travel-slide-2.jpg" alt="Travel Slide 2" class="slide__img">
+                                                    </div>
+                                                </div>
+                                                <!-- Switch Slide Btn -->
+                                                <div class="slide__switch-btn col l-o-half hide-on-mobile-tablet">
+                                                    <i class="slide__switch-btn-icon fas fa-angle-left"></i>
+                                                </div>
+                                                <div class="slide__switch-btn col l-o-12half hide-on-mobile-tablet">
+                                                    <i class="slide__switch-btn-icon fas fa-angle-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Section: About -->
+                                <section class="about">
+                                    <div class="row ">
+                                        <div class="col">
+                                            <div class="about__info">
+                                                <div class="row">
+                                                    <div class="col l-4">
+                                                        <div class="about__info-img">
+                                                            <img src="./assets/img/wine-tours/travel-img-1.png" alt="About Info" class="about__img">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-6 l-o-1">
+                                                        <!-- Info Content -->
+                                                        <div class="about__info-content">
+                                                            <!-- Popular Header -->
+                                                            <div class="popular-header">
+                                                                <h3 class="popular-header__heading">Our Popular Tours</h3>
+                                                                <div class="popular-header__desc">
+                                                                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver ra nulla ut metus varius laoreet. Quisque rutrum.
+                                                                </div>
+                                                            </div>
+                                                            <!-- Info Chart -->
+                                                            <div class="info-chart">
+                                                                <div class="info-chart__item">
+                                                                    <div class="row no-gutters">
+                                                                        <div class="info-chart__header">
+                                                                                <h5 class="info-chart__heading">
+                                                                                    Countryside
+                                                                                </h5>
+                                                                                <span class="info-chart__percent">76%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row no-gutters">
+                                                                        <div class="info-chart__bar">
+                                                                                <div class="info-chart__bar-inner" style="--percent:76%"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="info-chart__item">
+                                                                    <div class="row no-gutters">
+                                                                        <div class="info-chart__header">
+                                                                                <h5 class="info-chart__heading">
+                                                                                    Vineyard
+                                                                                </h5>
+                                                                                <span class="info-chart__percent">92%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row no-gutters">
+                                                                        <div class="info-chart__bar">
+                                                                                <div class="info-chart__bar-inner" style="--percent:92%"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="info-chart__item">
+                                                                    <div class="row no-gutters">
+                                                                        <div class="info-chart__header">
+                                                                                <h5 class="info-chart__heading">
+                                                                                    Wine Tasting
+                                                                                </h5>
+                                                                                <span class="info-chart__percent">86%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row no-gutters">
+                                                                        <div class="info-chart__bar">
+                                                                                <div class="info-chart__bar-inner" style="--percent:86%"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="about__more">
+                                                <div class="row no-gutters">
+                                                    <div class="about__more-wrap">
+                                                        <img src="./assets/img/wine-tours/travel-img-2.jpg" alt="About More" class="about__more-img">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Section: Tour -->
+                                <section class="tour">
+                                    <div class="row ">
+                                        <!-- Title Header Component -->
+                                        <div class="title-header">
+                                            <div class="row">
+                                                <div class="col l-6 l-o-4">
+                                                    <h3 class="title-header__heading">
+                                                        The Best Tours
+                                                    </h3>
+                                                    <span class="title-header__sub-title">
+                                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Tour Body -->
+                                        <div class="tour-body">
+                                            <div class="row no-gutters">
+                                                <div class="col l-3 m-6">
+                                                    <div class="tour-body__items-wrap">
+                                                        <div class="tour-body__item">
+                                                            <a href="" class="tour-body__item-link">
+                                                            </a>
+                                                            <img src="assets/img/wine-tours/tour-img1.jpg" alt="Tour Img 1" class="tour-body__item-img">
+                                                            <div class="tour-body__item-title">
+                                                                <span class="tour-body__item-name">
+                                                                    Wine Festival
+                                                                </span>
+                                                                <span class="tour-body__item-price">
+                                                                    $550
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tour-body__item">
+                                                            <a href="" class="tour-body__item-link">
+                                                            </a>
+                                                            <img src="assets/img/wine-tours/tour-img2.jpg" alt="Tour Img 1" class="tour-body__item-img">
+                                                            <div class="tour-body__item-title">
+                                                                <span class="tour-body__item-name">
+                                                                    Champagne
+                                                                </span>
+                                                                <span class="tour-body__item-price">
+                                                                    $2130
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3 m-6">
+                                                    <div class="tour-body__items-wrap">
+                                                        <div class="tour-body__item">
+                                                            <a href="" class="tour-body__item-link">
+                                                            </a>
+                                                            <img src="assets/img/wine-tours/tour-img3.jpg" alt="Tour Img 1" class="tour-body__item-img">
+                                                            <div class="tour-body__item-title">
+                                                                <span class="tour-body__item-name">
+                                                                    Wine Tasting
+                                                                </span>
+                                                                <span class="tour-body__item-price">
+                                                                    $920
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tour-body__item">
+                                                            <a href="" class="tour-body__item-link">
+                                                            </a>
+                                                            <img src="assets/img/wine-tours/tour-img4.jpg" alt="Tour Img 1" class="tour-body__item-img">
+                                                            <div class="tour-body__item-title">
+                                                                <span class="tour-body__item-name">
+                                                                    Villages
+                                                                </span>
+                                                                <span class="tour-body__item-price">
+                                                                    $850
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3 m-6">
+                                                    <div class="tour-body__items-wrap">
+                                                        <div class="tour-body__item full-height">
+                                                            <a href="" class="tour-body__item-link">
+                                                            </a>
+                                                            <img src="assets/img/wine-tours/travel-slide-4.jpg" alt="Tour Img 5" class="tour-body__item-img">
+                                                            <div class="tour-body__item-title">
+                                                                <span class="tour-body__item-name">
+                                                                    Camping
+                                                                </span>
+                                                                <span class="tour-body__item-price">
+                                                                    $1550
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3 m-6">
+                                                    <div class="tour-body__items-wrap">
+                                                        <div class="tour-body__item">
+                                                            <a href="" class="tour-body__item-link">
+                                                            </a>
+                                                            <img src="assets/img/wine-tours/tour-img6.jpg" alt="Tour Img 1" class="tour-body__item-img">
+                                                            <div class="tour-body__item-title">
+                                                                <span class="tour-body__item-name">
+                                                                    Harvest
+                                                                </span>
+                                                                <span class="tour-body__item-price">
+                                                                    $2600
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tour-body__item">
+                                                            <a href="" class="tour-body__item-link">
+                                                            </a>
+                                                            <img src="assets/img/wine-tours/tour-img7.jpg" alt="Tour Img 1" class="tour-body__item-img">
+                                                            <div class="tour-body__item-title">
+                                                                <span class="tour-body__item-name">
+                                                                    Local Wine
+                                                                </span>
+                                                                <span class="tour-body__item-price">
+                                                                    $1330
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Section: Counter -->
+                                <section class="counter">
+                                    <div class="row">
+                                        <div class="col l-3 m-6">
+                                            <div class="counter-item">
+                                                <div class="counter-item__number">45</div>
+                                                <h5 class="counter-item__title">
+                                                    Glasses of Wine
+                                                </h5>
+                                                <p class="counter-item__desc">
+                                                    Cap at perspic iatis unde omnis iste natus error sit volup tatem
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col l-3 m-6">
+                                            <div class="counter-item">
+                                                <div class="counter-item__number">126</div>
+                                                <h5 class="counter-item__title">
+                                                    Years of experience
+                                                </h5>
+                                                <p class="counter-item__desc">
+                                                    Sop ut perspic iatis ande emnis iste natus error sit volup fatom
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col l-3 m-6">
+                                            <div class="counter-item">
+                                                <div class="counter-item__number">452</div>
+                                                <h5 class="counter-item__title">
+                                                    Unique Wines
+                                                </h5>
+                                                <p class="counter-item__desc">
+                                                    Sed ut perspic iatis unde omnis iste natus error sit volup tatem
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col l-3 m-6">
+                                            <div class="counter-item">
+                                                <div class="counter-item__number">247</div>
+                                                <h5 class="counter-item__title">
+                                                    Sorts of Wine
+                                                </h5>
+                                                <p class="counter-item__desc">
+                                                    Cap at perspic iatis unde omnis iste natus error sit volup tatem
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Section: Video -->
+                                <section class="video"></section>
+                                <!-- Section: Process -->
+                                <section class="process">
+                                    <div class="row">
+                                        <div class="col l-8 m-12 c-12">
+                                            <div class="process-content">
+                                                <div class="popular-header">
+                                                    <h3 class="popular-header__heading">Our Popular Tours</h3>
+                                                                <div class="popular-header__desc">
+                                                                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo
+                                                                </div>
+                                                </div>
+                                                <div class="process-content__list">
+                                                    <div class="row">
+                                                        <div class="col l-6">
+                                                            <div class="process-content__item-wrap">
+                                                                <div class="process-content__item">
+                                                                    <img src="/assets/img/wine-tours/process-img-1.png" alt="Process Img 1" class="process-content__item-icon">
+                                                                    <p class="process-content__item-desc">
+                                                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                                    </p>
+                                                                </div>
+                                                                <div class="process-content__item">
+                                                                    <img src="/assets/img/wine-tours/process-img-3.png" alt="Process Img 3" class="process-content__item-icon">
+                                                                    <p class="process-content__item-desc">
+                                                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col l-6">
+                                                            <div class="process-content__item-wrap">
+                                                                <div class="process-content__item">
+                                                                    <img src="/assets/img/wine-tours/process-img-2.png" alt="Process Img 2" class="process-content__item-icon">
+                                                                    <p class="process-content__item-desc">
+                                                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                                    </p>
+                                                                </div>
+                                                                <div class="process-content__item">
+                                                                    <img src="/assets/img/wine-tours/process-img-4.png" alt="Process Img 4" class="process-content__item-icon">
+                                                                    <p class="process-content__item-desc">
+                                                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-4 ">
+                                            <div class="process-img__wrap">
+                                                <img src="/assets/img/wine-tours/travel-img-3.png" alt="Wine Glass" class="process-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="grid wide">
+                    <div class="footer-contain">
+                        <div class="row">
+                            <div class="col l-3 m-6 c-10 c-o-1">
+                                <div class="footer-contain__item">
+                                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo.png" alt="" class="footer-contain__item-logo">   
+                                    <p class="footer-contain__item-text">
+                                        Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae
+                                    </p>
+                                    <ul class="footer-contain__contact-list">
+                                        <li class="footer-contain__contact-item">
+                                            <a href="" class="footer-contain__contact-link">
+                                                <i class="footer-contain__contact-icon far fa-envelope"></i>
+                                                setsail@qode.com
+                                            </a>
+                                        </li>
+                                        <li class="footer-contain__contact-item">
+                                            <a href="" class="footer-contain__contact-link">
+                                                <i class="footer-contain__contact-icon fas fa-phone-alt"></i>
+                                                1 562 867 5309
+                                            </a>
+                                        </li>
+                                        <li class="footer-contain__contact-item">
+                                            <a href="" class="footer-contain__contact-link">
+                                                <i class="footer-contain__contact-icon fas fa-map-marker-alt"></i>
+                                                Broadway & Morris St, New York
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-10 c-o-1">
+                                <div class="footer-contain__item">
+                                    <h5 class="footer-contain__item-header">
+                                        Our Recent Posts
+                                    </h5>
+                                    <ul class="footer-contain__posts-list">
+                                        <li class="footer-contain__post-item">
+                                            <a href="" class="footer-contain__post-link">
+                                                <span class="footer-contain__post-name">Visit Thailand, Bali And China</span>
+                                                <p class="footer-contain__post-date">September 7, 2016</p>
+                                            </a>
+                                        </li>
+                                        <li class="footer-contain__post-item">
+                                            <a href="" class="footer-contain__post-link">
+                                                <span class="footer-contain__post-name">The Sound Of Our Jungle</span>
+                                                <p class="footer-contain__post-date">September 7, 2016</p>
+                                            </a>
+                                        </li>
+                                        <li class="footer-contain__post-item">
+                                            <a href="" class="footer-contain__post-link">
+                                                <span class="footer-contain__post-name">New Year, New Resolutions!</span>
+                                                <p class="footer-contain__post-date">September 7, 2016</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-10 c-o-1">
+                                <div class="footer-contain__item">
+                                    <h5 class="footer-contain__item-header">
+                                        Subscribe to our Newsletter
+                                    </h5>
+                                    <p class="footer-contain__item-desc">
+                                        Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho
+                                    </p>
+                                    <div class="row">
+                                        <div class="col">
+    
+                                            <form action="" class="footer-form">
+                                                <div class="footer-form__item">
+                                                    <i class="footer-form__icon fas fa-user"></i>
+                                                    <input id="name" type="text" class="footer-form__control" placeholder="Name">
+                                                </div>
+                                                <div class="footer-form__item">
+                                                    <i class="footer-form__icon far fa-envelope"></i>
+                                                    <input id="email" type="email" class="footer-form__control" placeholder="Email">
+                                                </div>
+                                                <input type="submit" value="Subcribe" class="footer-form__btn">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-10 c-o-1">
+                                <div class="footer-contain__item">
+                                    <h5 class="footer-contain__item-header">
+                                        Our Instagram
+                                    </h5>
+                                    <p class="footer-contain__item-desc">
+                                        Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-o-4 m-o-4 c-o-1">
+                            <span class="footer__copyright">
+                                Powered by @
+                                <a href="" class="footer__copyright-link">
+                                    Qode Interactive 2018
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+            <!-- Modal Layout -->
+            <div class="modal js-modal">
+                <!-- Login Form -->
+                <div class="modal-inner js-modal-contain">
+                    <form action="" method="POST" class="form" id="form-1">
+                        <div class='btn-wrapper'>
+                            <div class="switch-btn">
+                                <span>Login</span>
+                            </div>
+                            <div class="switch-btn">
+                                <span>Register</span>
+                            </div>
+                        </div>
+                        <div class="form-header">
+                            <h4 class="form-header__heading">Sign In Here!</h4>
+                            <p class="form-header__desc">Log into your account in just a few simple steps.</p>
+                        </div>
+                        <div class="form-body">
+                            <div class='form-group'>
+                                <div class="form-icon">
+                                    <i class= "fas fa-user"></i>
+                                </div>
+                                <input id= 'fullname' name= 'fullname' type="text" placeholder= 'User Name' class='form-control'/>
+                                <span class="form-message"></span>
+                            </div>
+                            <div class='form-group'>
+                                <div class="form-icon">
+                                    <i class= "fas fa-unlock-alt"></i>
+                                </div>
+                                <input id= 'password' name= 'password' type="text" placeholder= 'Your Password' class='form-control'/>
+                                <span class="form-message"></span>
+                            </div>
+                            <div class='form-addition'>
+                                <label for="checkbox" class="checkbox-inline">
+                                    <input id= 'checkbox' name= 'checkbox' type="checkbox" class='form-checkbox'/>
+                                    Remember me
+                                </label>
+                                <a href="" class="form-help__link">Lost Your password?</a>
+                            </div>
+                            <button class="form-submit">Sign in</button>
+                            <div class="form-footer">
+                                <p class="form-footer__title">Sign in with Facebook or Google+</p>
+                                <div class="form-footer__socials">
+                                    <div class="form-footer__social-item fb">
+                                        <a href="" class="form-footer__social-link">Facebook</a>
+                                    </div>
+                                    <div class="form-footer__social-item google">
+                                        <a href="" class="form-footer__social-link">Google+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Register Form -->
+                <!-- <div class="modal-inner">
+                    <form action="" method="POST" class="form" id="form-1">
+                        <div class='btn-wrapper'>
+                            <div class="switch-btn">
+                                <span>Login</span>
+                            </div>
+                            <div class="switch-btn">
+                                <span>Register</span>
+                            </div>
+                        </div>
+                        <div class="form-header">
+                            <h4 class="form-header__heading">Register Now!</h4>
+                            <p class="form-header__desc">Join the SetSail community today and set up a free account.</p>
+                        </div>
+                        <div class="form-body">
+                            <div class='form-group'>
+                                <div class="form-icon">
+                                    <i class= "fas fa-user"></i>
+                                </div>
+                                <input id= 'fullname' name= 'fullname' type="text" placeholder= 'User Name' class='form-control'/>
+                                <span class="form-message"></span>
+                            </div>
+                            <div class='form-group'>
+                                <div class="form-icon">
+                                    <i class= "far fa-envelope"></i>
+                                </div>
+                                <input id= 'email' name= 'email' type="text" placeholder= 'Your Email' class='form-control'/>
+                                <span class="form-message"></span>
+                            </div>
+                            <div class='form-group'>
+                                <div class="form-icon">
+                                    <i class= "fas fa-unlock-alt"></i>
+                                </div>
+                                <input id= 'password' name= 'password' type="text" placeholder= 'Your Password' class='form-control'/>
+                                <span class="form-message"></span>
+                            </div>
+                            <div class='form-group'>
+                                <div class="form-icon">
+                                    <i class= "fas fa-unlock-alt"></i>
+                                </div>
+                                <input id= 'password' name= 'password' type="text" placeholder= 'Repeat Password' class='form-control'/>
+                                <span class="form-message"></span>
+                            </div>
+                            <button class="form-submit">Register</button>
+                        </div>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </div>
+      <script type="text/javascript">
+        const loginBtns = document.querySelectorAll('.js-login-btn');
+        const modal = document.querySelector('.js-modal');
+        const modalContain = document.querySelector('.js-modal-contain');
+
+        function showModal() {
+            modal.classList.add('open')
+        }
+
+        function closeModal() {
+            modal.classList.remove('open')
+        }
+
+        for ( const loginBtn of loginBtns ) {
+            loginBtn.addEventListener('click', showModal);
+        }
+
+        modal.addEventListener('click', closeModal);
+        
+        modalContain.addEventListener('click', function(e) {
+            e.stopPropagation()
+        })
+
+      </script>
+      
+      <script type="text/javascript" >
+        const menuBtn = document.querySelector('.js-menu-btn');
+        const navbar = document.querySelector('.js-mobile-nav');
+        const mobileOverlay = document.querySelector('.js-mobile-overlay');
+
+        function removeNavbar() {
+            navbar.classList.remove('open');
+            mobileOverlay.style.display = 'none';
+        }
+
+        menuBtn.addEventListener('click', function() {
+            navbar.classList.toggle('open');
+            mobileOverlay.style.display = 'block';
+        })
+
+        mobileOverlay.addEventListener('click', removeNavbar);
+
+        navbar.addEventListener('click', function(e) {
+            e.stopPropagation()
+        });
+
+      </script>
+</body>
+</html>
